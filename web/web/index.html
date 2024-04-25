@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Peso ideal</title>
+        <script src="js/funciones.js"></script>
+    </head>
+    <body>
+        <div>
+            <div>
+                <h1>Peso ideal App</h1>
+                <hr>
+            </div>
+            <!-- Formulario de ingreso de datos -->
+            <div>
+                <form name="frm_peso_ideal">
+                    <table>
+                        <tr>
+                            <td><label>Edad</label></td> 
+                            <td><input type="number" id="txt_edad"></td>
+                        </tr>
+                        <tr>
+                            <td><label>Peso actual</label></td> 
+                            <td><input type="number" id="txt_peso_actual"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="button" value="Calcular" onclick="calcularPesoIdeal();"></td> 
+                            <td></td>
+                        </tr>
+                    </table>
+                </form>
+                <!-- Mostramos resultado-->
+                <div id="cnt_peso_ideal"></div>
+                <div id="cnt_estado_peso"></div>
+                <div id="cnt_estado_imagen"></div>
+            </div>
+        </div>
+    </body>
+</html>
